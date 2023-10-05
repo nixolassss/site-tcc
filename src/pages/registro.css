@@ -1,0 +1,14 @@
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-registro {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.nome{
+    margin-bottom: 0;
+}

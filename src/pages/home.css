@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    }
+    body{
+        background: #18171a;
+        color: white;
+        height: 100vh;
+    }
+    .start{
+        margin-top: 4rem;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+    .start-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .start-info span {
+        color: #ff4601;
+        font-family: 'Orbitron', sans-serif;
+        
+    }
+    
+    .start-info h1 {
+        font-family: 'Orbitron', sans-serif;
+        margin-bottom: 3rem;
+        font-size: 1.875rem;
+    }
+    .start-info p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        font-weight: 500;
+        
+    }
+    .start-info button {
+        border: none;
+        background: #ff4601;
+        color: #FFF;
+        width: 12.875rem;
+        height: 3rem;
+        border-radius: 20px 0px 20px 0px;
+        font-size: 1.25rem;
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+        
+    }
+    .instrucao {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 1rem;
+    }
+    .instrucao-info {
+        margin-bottom: 6rem;
+    }
+    .instrucao-info h1 {
+        font-family: 'Outfit', sans-serif;
+        font-size: 1.7rem;
+        margin-bottom: 3rem;
+        
+    }
+    .instrucao-info img {
+        width: 20rem;
+        height: 12rem;
+
+        text-align: center;
+        
+    }
+    .objetivo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    .objetivo h1 {
+        font-family: 'Outfit', sans-serif;
+        font-size: 1.7rem;
+        margin-bottom: 2rem;
+    }
+    .objetivo h2 {
+        font-family: 'Outfit', sans-serif;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+        color: #ff4601;
+        display: flex;
+        justify-content: center;
+    }
+    .objetivo p {
+        font-family: 'Outfit', sans-serif;
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 2rem;
+        font-weight: 400;
+    }
+   
+    .diferenciais {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .detector {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .detector img {
+        width: 5rem;
+    }
+    .detector p {
+
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 2.1875rem;
+        margin-left: 4.625rem;
+        margin-right: 4.625rem;
+        margin-top: 1rem;
+       
+    }
+    .integracao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .integracao img {
+        width: 5rem;
+    }
+    .integracao p {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-top: 1rem;
+        margin-bottom: 2.1875rem;
+        margin-left: 4.625rem;
+        margin-right: 4.625rem;
+    }
+    .interface {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .interface img {
+        width: 5rem;
+    }
+    .interface p {
+
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-top: 1rem;
+        margin-bottom: 5.87rem;
+        margin-left: 4.625rem;
+        margin-right: 4.625rem;
+    }
+
+    .final {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .final img {
+        width: 22rem;
+        height: 11.9375rem;
+        margin-inline: auto;
+        align-items: center;
+    }
+    .final p {
+
+        font-size: 1.25rem;
+        margin-top: 2.12rem;
+        margin-left: 1.69rem;
+        margin-right: 1.25rem;
+        font-weight: 500;
+    }
+    .warden img {
+        width: 10.72638rem;
+    }
+    .warden {
+        display: flex;
+        flex-direction: row;
+        margin-top: 3rem;
+    }
+    .warden p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.3375rem;
+    margin-top: 4rem;
+    margin-right: 5rem;
+    }
+    @media (min-width: 870px){
+        
+        .final {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .final img {
+            width: 38.9445rem;
+            height: 21.25rem;
+        }
+        .final p {
+            width: 29.0565rem;
+            font-size: 1.6875rem;
+            margin-top: 5rem;
+           
+        }
+        .start {
+            display: flex;
+            flex-direction: row;
+            margin-top: 7rem;
+            margin-left: 6rem;
+            margin-bottom: 10rem;
+        }
+        .start-info h1 {
+            width: 49.875rem;
+            font-size: 4rem;
+            font-weight: 700;
+            font-size: 4rem;
+            text-align: left;
+            margin-left: 0;
+        }
+        .start-info p {
+            text-align: left;
+            font-size: 2rem;
+            font-weight: 500;
+            width: 60rem;
+            margin-left: 6rem;
+        }
+        .start-info button {
+            margin-right: 40rem;
+            margin-top: 3.28rem;
+        }
+        .instrucao {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        .instrucao-info h1 {
+            font-size: 4rem;
+            width: 52rem;
+            margin-left: 12rem;
+            
+           
+        }
+        .instrucao-info img{
+            width: 50rem;
+            height: 31rem;
+            margin-left: 12rem;
+            margin-right: 12rem;
+        }
+        .objetivo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .objetivo h1 {
+            font-size: 4rem;
+            width: 52rem;
+            
+        }
+        .objetivo h2{
+            margin-top: 4rem;
+            color: #ff4601;
+            font-size: 4rem;
+            font-family: 'Outfit', sans-serif;
+        }
+        .objetivo p {
+            text-align: center;
+            font-size: 2rem;
+            width: 44rem;
+        }
+        .diferenciais {
+            display: flex;
+            text-align: center;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 9rem;
+            margin-left: 9rem;
+            margin-bottom: 9rem;
+            margin-right: 9rem;
+        }
+       
+        .detector p {
+            font-size: 1.5rem;
+            width: 18rem;
+            height: 11.2rem;
+        }
+        .integracao p {
+            font-size: 1.5rem;
+            width: 18rem;
+            height: 11.2rem;
+
+        }
+        .interface p {
+            font-size: 1.5rem;
+            width: 19rem;
+            height: 8rem;
+
+        }
+        .warden {
+            display: flex;
+            justify-content: center;
+        }
+    }
+   
+    

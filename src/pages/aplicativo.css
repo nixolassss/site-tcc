@@ -1,0 +1,176 @@
+.cont {
+    margin-top: 10rem;
+    background: #FF4300 ;
+    width: 21rem;
+    height: 42.0625rem;
+    border-radius: 3rem;
+    margin-left: 1.38rem;
+    margin-right: 1.38rem;
+}
+.apli-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.apli-cont p {
+    font-size: 1.7rem;
+    margin-top: 5rem;
+    
+}
+.celulares {
+    width: 20rem;
+}
+.app {
+    margin-bottom: 1rem;
+}
+.warden img {
+    width: 10.72638rem;
+}
+.warden {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+.warden p {
+color: #FFF;
+font-family: Inter;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.3375rem;
+margin-top: 4rem;
+font-family: 'Outfit', sans-serif;
+margin-right: 5rem;
+}
+@media  (min-width:1000px) {
+    .cont {
+        position: relative;
+        margin-top: 10rem;
+            background: #FF4300 ;
+            width: 85rem;
+            height: 42.0625rem;
+            border-radius: 3rem;
+            margin-left: 29rem;
+            margin-right: 1.38rem;
+       
+    }
+    .apli-cont p {
+       position: absolute;
+       width: 37rem;
+       top: 9rem;
+       left: 0;
+       font-size: 3rem;
+       margin-left: 7rem;
+       text-align: left;
+    }
+    .celulares {
+       margin-left: 4rem;
+       position: absolute;
+       right: 0;
+       bottom: 0;
+       width: 45rem;
+
+    }
+    .app {
+        position: absolute;
+        left: 0;
+        bottom: 10rem;
+        margin-left: 7rem;
+
+    }
+    .google {
+        position: absolute;
+        left: 0;
+        margin-left: 20rem;
+        top: 27.3rem;
+        
+    }
+   
+}
+@media (min-width:795px) {
+   .cont{
+    display: flex;
+    width: 30rem;
+    margin-left: 10rem;
+   }
+}
+@media (min-width: 1000px) {
+    .cont {
+        position: relative;
+        margin-top: 10rem;
+            background: #FF4300 ;
+            width: 80rem;
+            height: 42.0625rem;
+            border-radius: 3rem;
+            margin-left: 4rem;
+           
+       
+    }
+}
+@media (min-width:1277px) {
+    .cont {
+            position: relative;
+             margin-top: 10rem;
+            background: #FF4300 ;
+            height: 42.0625rem;
+            border-radius: 3rem;
+            margin-left: 10rem;
+            margin-right: 3rem;
+            width: 80rem;
+    }
+}
+@media (min-width:1380px) {
+    .cont {
+            position: relative;
+            margin-top: 10rem;
+            background: #FF4300 ;
+            height: 42.0625rem;
+            border-radius: 3rem;
+            margin-left: 4rem;
+            margin-right: 3rem;
+            width: 80rem;
+    }
+}
+@media (min-width:1440px) {
+    .cont {
+            position: relative;
+            margin-top: 10rem;
+            background: #FF4300 ;
+            width: 80rem;
+            height: 42rem;
+            border-radius: 3rem;
+            margin-left: 4rem;
+            margin-right: 15rem;
+       
+    }
+}
+@media (min-width:1500px) {
+    .cont {
+        position: relative;
+        margin-top: 10rem;
+            background: #FF4300 ;
+            width: 85rem;
+            height: 42.0625rem;
+            border-radius: 3rem;
+            margin-left: 9rem;
+            margin-right: 13rem;
+       
+    }
+}
+@media (min-width:1600px) {
+    .cont {
+        position: relative;
+        margin-top: 10rem;
+            background: #FF4300 ;
+            width: 85rem;
+            height: 42.0625rem;
+            border-radius: 3rem;
+            margin-left: 30rem;
+            margin-right: 13rem;
+       
+    }
+}
+

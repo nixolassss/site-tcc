@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+.first {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.inicio {
+    font-size: 1.2rem;
+    margin-top:9rem;
+    text-align: center;
+    
+}
+.arduino {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.fogo{
+    display: flex;
+    flex-direction: column;
+}
+.gas {
+    display: flex;
+    flex-direction: column;
+}
+.lcd {
+    display: flex;
+    flex-direction: column;
+}
+.buzzer {
+    display: flex;
+    flex-direction: column;
+}
+.resistores {
+    display: flex;
+    flex-direction: column;
+}
+.temperatura {
+    display: flex;
+    flex-direction: column;
+}
+
+.first img {
+    width: 16rem;
+    margin-left: 4rem;
+    
+}
+hr {
+    width: 16rem;
+    margin-left: 3.5rem;
+    background-color: orange;
+    height: 0.5rem;
+    border: none;
+    
+}
+.first h2 {
+    margin-top: 1rem;
+    text-align: left;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.35rem;
+}
+.first p {
+    text-align: left;
+    margin-left: 3rem;
+    margin-bottom: 0.35rem;
+}
+.second {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.second img {
+    width: 15rem;
+    margin-left: 4rem;
+    
+}
+.second h2 {
+    margin-top: 1rem;
+    text-align: left;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.35rem;
+}
+.second p {
+    text-align: left;
+    margin-left: 3rem;
+    margin-bottom: 0.35rem;
+}
+.three {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.three img {
+    width: 16rem;
+    margin-left: 4rem;
+
+}
+.three h2 {
+    margin-top: 1rem;
+    text-align: left;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.35rem;
+}
+.three p {
+    text-align: left;
+    margin-left: 3rem;
+    margin-bottom: 0.35rem;
+}
+.four {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.four img {
+    width: 15rem;
+    margin-left: 4rem;
+}
+.four h2 {
+    margin-top: 1rem;
+    text-align: left;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.35rem;
+}
+.four p {
+    text-align: left;
+    margin-left: 3rem;
+    margin-bottom: 0.35rem;
+}
+.five {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.five img {
+    width: 15rem;
+    margin-left: 4rem;
+}
+.five h2 {
+    margin-top: 1rem;
+    text-align: left;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.35rem;
+}
+.five p {
+    text-align: left;
+    margin-left: 3rem;
+    margin-bottom: 0.35rem;
+}
+.six {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.six img {
+    width: 15rem;
+     margin-left: 4rem;
+}
+.six h2 {
+    margin-top: 1rem;
+    text-align: left;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.35rem;
+}
+.six p {
+    text-align: left;
+    margin-left: 3rem;
+    margin-bottom: 0.35rem;
+}
+.seven {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.seven img {
+    width: 15rem; 
+    margin-left: 4rem;
+}
+.seven h2 {
+    margin-top: 1rem;
+    text-align: left;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.35rem;
+}
+.seven p {
+    text-align: left;
+    margin-left: 3rem;
+    margin-bottom: 0.35rem;
+}
+.warden img {
+    width: 10.72638rem;
+}
+.warden {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+.warden p {
+color: #FFF;
+font-family: Inter;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.3375rem;
+margin-top: 4rem;
+font-family: 'Outfit', sans-serif;
+margin-right: 5rem;
+}
+@media (min-width:1000px) {
+    .inicio {
+        margin-bottom: 10rem;
+        margin-top: 10rem;
+        font-size: 4rem;
+    }
+    
+    .primeiros {
+       display: flex; 
+       justify-content: center;
+       gap: 10rem;
+       margin-top: 10rem;
+    }
+   
+    .arduino {
+        margin-top: 10rem;
+    }
+    
+    .first img {
+        width: 15rem;
+    }
+    .second img {
+        width: 15rem;
+    }
+    .three img {
+        width: 15rem;
+    }
+    .segundos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20rem;
+    }
+}
