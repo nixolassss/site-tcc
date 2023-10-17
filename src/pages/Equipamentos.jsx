@@ -14,7 +14,7 @@ function Equipamentos() {
         <section className="primeiros">
           <section className="first" >
             <div className="arduino">
-              <img src="./img/arduino.png" alt="" />
+              <img src="./img/arduino-.png" alt="" />
               <hr />
               <h2>Arduino Uno</h2>
               <p>Marca: Robocore</p>
@@ -23,7 +23,7 @@ function Equipamentos() {
           </section>
           <section className="second" >
             <div className="fogo">
-              <img src="./img/fogosensor.png" alt="" />
+              <img src="./img/fogo-sensor.png" alt="" />
               <hr />
               <h2>Sensor de Fogo</h2>
               <p>Marca: Robocore</p>
@@ -32,7 +32,7 @@ function Equipamentos() {
           </section>
           <section className="three">
             <div className="gas">
-              <img src="./img/gas.png" alt="" />
+              <img src="./img/gas-.png" alt="" />
               <hr />
               <h2>Sensor de Gás</h2>
               <p>Marca: Robocore</p>
@@ -41,7 +41,7 @@ function Equipamentos() {
           </section>
           <section className="four">
             <div className="lcd">
-              <img src="./img/lcd.png" alt="" />
+              <img src="./img/lcd-.png" alt="" />
               <hr />
               <h2>Display LCD 16x2</h2>
               <p>Marca: Robocore</p>
@@ -54,7 +54,7 @@ function Equipamentos() {
        
         <section className="five">
           <div className="buzzer">
-            <img src="./img/buzzer.png" alt=""></img>
+            <img src="./img/buzzer-.png" alt=""></img>
             <hr />
             <h2>Buzzer</h2>
             <p>Marca: RoboCore</p>
@@ -72,7 +72,7 @@ function Equipamentos() {
         </section>
         <section className="seven">
           <div className="temperatura">
-            <img src="./img/temperatura.png" alt="" />
+            <img src="./img/temperatura-.png" alt="" />
             <hr />
             <h2>Sensor de Temperatura</h2>
             <p>Marca: RoboCore</p>

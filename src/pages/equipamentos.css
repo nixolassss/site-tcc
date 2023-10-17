@@ -268,4 +268,16 @@ margin-right: 5rem;
         justify-content: center;
         gap: 20rem;
     }
+    .arduino {
+        margin: auto;
+    }
+    .fogo {
+        margin-bottom:1.7rem;
+    }
+    .gas {
+        margin-bottom: 2.5rem;
+    }
+    .lcd {
+        margin-top: 1.7rem;
+    }
 }

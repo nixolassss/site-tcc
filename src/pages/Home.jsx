@@ -23,7 +23,7 @@ function Home() {
               <div className="objetivo">
                 <h1>Objetivo do trabalho</h1>
                 <p>Nosso objetivo é desenvolver e implementar um sistema de detecção de incêndio altamente eficiente e confiável, utilizando o Arduino como plataforma central. Através da integração de um sensor de fogo especializado e algoritmos inteligentes, buscamos criar um dispositivo capaz de identificar a presença de chamas ou altas temperaturas em tempo real.</p>
-                <h2>Nosso diferenciais</h2>
+                <h2>Nosso diferencial</h2>
               </div>
           </section>
           <section className='diferenciais'>
