@@ -28,7 +28,7 @@ export default function Bibliografia() {
             
             <Footer/>
             <div className="warden">
-          <img src="./img/Logo.svg" alt="" />
+          <img src="./src/img/Logo.svg" alt="" />
           <p>FireWarden</p>
         </div>
         </body>
