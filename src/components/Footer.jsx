@@ -1,4 +1,5 @@
 import "./footer.css"
+import seta from "/seta.svg"
 
 function Footer() {
   return (
@@ -40,15 +41,15 @@ function Footer() {
        <div className="mobile-footer">
         <div className="mobile-produto">
             <button>Produtos</button>
-            <img src="./img/seta.svg" alt="" />
+            <img src={seta} alt="" />
         </div>
         <div className="mobile-recursos">
             <button>Recursos</button>
-            <img src="./img/seta.svg" alt="" />
+            <img src={seta} alt="" />
         </div>
         <div className="mobile-empresa">
             <button>Empresa</button>
-            <img src="./img/seta.svg" alt="" />
+            <img src={seta} alt="" />
         </div>
        </div>
     </footer>

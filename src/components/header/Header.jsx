@@ -1,5 +1,6 @@
 import "./header.css"
 import { Link } from "react-router-dom";
+import Logo from "/Logo.svg"
 
 
  
@@ -22,7 +23,7 @@ function Header() {
     <header>
     <nav className="navi">
      <div className="logo">
-      <Link to={"/"}><img src="./src/img/Logo.svg" alt="" /> </Link>
+      <Link to={"/"}><img src={Logo} alt="" /> </Link>
      </div>
      <div className="nav-list-cont">
      <ul className="nav-list">

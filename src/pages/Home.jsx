@@ -2,6 +2,12 @@ import {Link} from "react-router-dom"
 import Header from "../components/header/Header"
 import Footer from "../components/Footer"
 import "./home.css"
+import video from "/video.png"
+import fogo from "/fogo.svg"
+import placa from "/placa.svg"
+import sinal from "/sinal.svg"
+import alvo from "/alvo 3.svg"
+import Logo from "/Logo.svg"
 
 function Home() {
   return (
@@ -18,7 +24,7 @@ function Home() {
           <section className='instrucao'>
               <div className="instrucao-info">
                   <h1>Instruções e Introdução</h1>
-                  <img src="./src/img/video.png" alt="Vídeo do projeto"/>
+                  <img src={video} alt="Vídeo do projeto"/>
               </div>
               <div className="objetivo">
                 <h1>Objetivo do trabalho</h1>
@@ -29,27 +35,27 @@ function Home() {
           <section className='diferenciais'>
                 <div className="detector">
                   
-                  <img src="./src/img/fogo.svg" alt="" />
+                  <img src={fogo} alt="" />
                   <p>Detecção rápida e confiável de incêndios com tecnologia avançada e inteligente.</p>
                 </div>
                 <div className="integracao">
-                  <img src="./src/img/placa.svg" alt="" />
+                  <img src={placa} alt="" />
                   <p>Integração com sistemas de segurança para monitoramento e resposta eficientes.</p>
                 </div>
                 <div className="interface">
-                  <img src="./src/img/sinal.svg" alt="" />
+                  <img src={sinal} alt="" />
                   <p>Interface intuitiva com visualização em tempo real dos sensores de fumaça e calor.</p>
                 </div>
           </section>
           <section>
             <div className="final">
-              <img src="./src/img/alvo 3.svg" alt="" />
+              <img src={alvo} alt="" />
               <p>Nosso sistema de alarme de incêndio com Arduino é direcionado a proprietários de residências, estabelecimentos comerciais e empresas que buscam uma solução confiável para prevenção e detecção de incêndios.</p>
             </div>
           </section>
           <Footer />
             <div className="warden">
-              <img src="./src/img/Logo.svg" alt="" /> 
+              <img src={Logo} alt="" /> 
               <p>FireWarden</p>
             </div>
      </body>
