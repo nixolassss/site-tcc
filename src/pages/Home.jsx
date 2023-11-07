@@ -17,18 +17,18 @@ function Home() {
       <section className='start'>
             <div className="start-info">
               <h1><span>Alarme</span> de incendio com arduino</h1>
-              <p> Apresentamos a você o incrível Sensor de Arduino com Fogo, uma revolução no campo da detecção de incêndios. Projetado para fornecer tranquilidade e proteção, este sensor é uma solução inteligente e eficaz para monitorar e detectar rapidamente a presença de fogo em qualquer ambiente</p>
+              <p> Apresentamos a você o incrível Sensor de Arduino com Fogo e Gás, uma revolução no campo da detecção de incêndios. Projetado para fornecer tranquilidade e proteção, este projeto é uma solução inteligente e eficaz para monitorar e detectar rapidamente a presença de fogo e gás em qualquer ambiente</p>
                <Link to={"/bibliografia"}><button>Saiba mais</button></Link> 
             </div>
           </section>
           <section className='instrucao'>
               <div className="instrucao-info">
-                  <h1>Instruções e Introdução</h1>
+                  <h1>Funcionamento do projeto</h1>
                   <img src={video} alt="Vídeo do projeto"/>
               </div>
               <div className="objetivo">
                 <h1>Objetivo do trabalho</h1>
-                <p>Nosso objetivo é desenvolver e implementar um sistema de detecção de incêndio altamente eficiente e confiável, utilizando o Arduino como plataforma central. Através da integração de um sensor de fogo especializado e algoritmos inteligentes, buscamos criar um dispositivo capaz de identificar a presença de chamas ou altas temperaturas em tempo real.</p>
+                <p>Nosso objetivo é desenvolver e implementar um sistema de detecção de incêndio altamente eficiente e confiável, utilizando o Arduino como plataforma central. Através da integração de um sensor de fogo e gás especializado e um aplicativo inteligente, buscamos criar um dispositivo capaz de identificar a presença de chamas ou gás inflamável em tempo real.</p>
                 <h2>Nosso diferencial</h2>
               </div>
           </section>
@@ -40,11 +40,11 @@ function Home() {
                 </div>
                 <div className="integracao">
                   <img src={placa} alt="" />
-                  <p>Integração com sistemas de segurança para monitoramento e resposta eficientes.</p>
+                  <p>Com a integração de indicativos sonoros e visuais. </p>
                 </div>
                 <div className="interface">
                   <img src={sinal} alt="" />
-                  <p>Interface intuitiva com visualização em tempo real dos sensores de fumaça e calor.</p>
+                  <p>Interface intuitiva com visualização em tempo real dos sensores de Gás e Fogo.</p>
                 </div>
           </section>
           <section>

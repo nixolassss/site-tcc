@@ -68,6 +68,7 @@
         font-size: 1.7rem;
         margin-bottom: 3rem;
         
+        
     }
     .instrucao-info img {
         width: 20rem;
@@ -87,13 +88,14 @@
         font-family: 'Outfit', sans-serif;
         font-size: 1.7rem;
         margin-bottom: 2rem;
+        color: #FE6200;
     }
     .objetivo h2 {
         font-family: 'Outfit', sans-serif;
         font-size: 1.5rem;
         margin-bottom: 2rem;
         margin-top: 1rem;
-        color: #ff4601;
+        color: #FE6200;
         display: flex;
         justify-content: center;
     }
@@ -215,6 +217,17 @@
             flex-direction: row;
             margin-right: 5rem;       
         }
+        ::-webkit-scrollbar{
+            width: 12px;
+            background-color: #18171a;
+            border: 5px solid #18171a;
+        }
+        
+        ::-webkit-scrollbar-thumb{
+            background-color: #FE6200 ;
+            border-radius: 50px;
+            border: 2px solid white;
+        }
         .final img {
             width: 38.9445rem;
             height: 21.25rem;
@@ -285,11 +298,12 @@
         .objetivo h1 {
             font-size: 4rem;
             width: 52rem;
+            color: #FE6200;
             
         }
         .objetivo h2{
-            margin-top: 4rem;
-            color: #ff4601;
+            margin-top: 15rem;
+            color: #FE6200;
             font-size: 4rem;
             font-family: 'Outfit', sans-serif;
         }

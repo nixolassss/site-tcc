@@ -18,7 +18,7 @@ export default function Registro() {
               </div>
               <div className="data">
                 <label htmlFor="">Data</label>
-                <input type="text" placeholder='Data de nascimento'/>
+                <input type="date" placeholder='Data de nascimento'/>
               </div>
             </section>
             <section className="container2">
