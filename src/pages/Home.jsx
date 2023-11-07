@@ -18,7 +18,7 @@ function Home() {
             <div className="start-info">
               <h1><span>Alarme</span> de incendio com arduino</h1>
               <p> Apresentamos a você o incrível Sensor de Arduino com Fogo, uma revolução no campo da detecção de incêndios. Projetado para fornecer tranquilidade e proteção, este sensor é uma solução inteligente e eficaz para monitorar e detectar rapidamente a presença de fogo em qualquer ambiente</p>
-                <button>Saiba mais</button>
+               <Link to={"/bibliografia"}><button>Saiba mais</button></Link> 
             </div>
           </section>
           <section className='instrucao'>
@@ -50,7 +50,10 @@ function Home() {
           <section>
             <div className="final">
               <img src={alvo} alt="" />
-              <p>Nosso sistema de alarme de incêndio com Arduino é direcionado a proprietários de residências, estabelecimentos comerciais e empresas que buscam uma solução confiável para prevenção e detecção de incêndios.</p>
+              <p><span className="Spanado">Publico alvo</span>
+              <br />
+              <br />
+              Nosso sistema de alarme de incêndio com Arduino é direcionado a proprietários de residências, estabelecimentos comerciais e empresas que buscam uma solução confiável para prevenção e detecção de incêndios.</p>
             </div>
           </section>
           <Footer />

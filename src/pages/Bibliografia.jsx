@@ -1,6 +1,7 @@
 import "./bibliografia.css"
 import Header from "../components/header/Header"
 import Footer from "../components/Footer"
+import Logo from "/Logo.svg"
 
 export default function Bibliografia() {
   return (
@@ -28,7 +29,7 @@ export default function Bibliografia() {
             
             <Footer/>
             <div className="warden">
-          <img src="./src/img/Logo.svg" alt="" />
+          <img src={Logo} alt="" />
           <p>FireWarden</p>
         </div>
         </body>

@@ -16,7 +16,7 @@ export default function Aplicativo() {
             <div className="apli-cont">
                 <p>Baixe nosso aplicativo e esteja sempre um passo à frente das chamas!</p>
                 <img className="celulares" src={celulares} alt="" />
-                <img className="app" src={appstore} alt="" />
+                <img className="app" src={appstore} alt="" href="https://apps.apple.com/br/app/mit-app-inventor/id1422709355"/>
                 <img className="google" src={googleplay} alt="" />
             </div>
         </section>

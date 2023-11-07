@@ -10,6 +10,7 @@ import buzzer from "/buzzer-.png"
 import jumpers from "/jumpers.png"
 import temperatura from "/temperatura-.png"
 import Logo from "/Logo.svg"
+import hc from "/hc.png"
 
 function Equipamentos() {
   return (
@@ -71,11 +72,11 @@ function Equipamentos() {
         </section>
         <section className="six">
           <div className="resistores">
-            <img src={jumpers} alt="" />
+            <img src={hc} alt="" />
             <hr />
-            <h2>Resistores</h2>
+            <h2>HC-05</h2>
             <p>Marca: RoboCore</p>
-            <p>R$0,75</p>
+            <p>R$39,90</p>
           </div>
         </section>
         <section className="seven">

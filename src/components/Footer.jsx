@@ -38,20 +38,7 @@ function Footer() {
             <button>Inscreva-se</button>
         </div>
        </div>
-       <div className="mobile-footer">
-        <div className="mobile-produto">
-            <button>Produtos</button>
-            <img src={seta} alt="" />
-        </div>
-        <div className="mobile-recursos">
-            <button>Recursos</button>
-            <img src={seta} alt="" />
-        </div>
-        <div className="mobile-empresa">
-            <button>Empresa</button>
-            <img src={seta} alt="" />
-        </div>
-       </div>
+       
     </footer>
     </>
   )

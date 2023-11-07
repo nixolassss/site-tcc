@@ -19,10 +19,10 @@ font-family: 'Outfit', sans-serif;
 margin-right: 5rem;
 }
 .h1zin {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     display: flex;
     justify-content: center;
-    margin-top: 3.32rem;
+    margin-top: 9rem;
     margin-bottom: 3rem;
 }
 .container {
@@ -60,6 +60,11 @@ margin-right: 5rem;
 @media (min-width:1024px) {
     .container {
         flex-direction: row;
-        gap: 2rem;
+        gap: 10rem;
+        margin-top: 8rem;
+    }
+    .h1zin {
+        font-size: 4rem;
+        margin: auto;
     }
 }
